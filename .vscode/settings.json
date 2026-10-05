@@ -1,0 +1,5 @@
+{
+	"editor.hover.enabled": false,
+	"editor.inlayHints.enabled": "off",
+	"editor.codeLens": false
+}

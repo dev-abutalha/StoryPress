@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "720px", "wideSize": "1120px" },
+    "color": {
+      "palette": [
+        { "slug": "ink", "color": "#20201e", "name": "Ink" },
+        { "slug": "paper", "color": "#fbfaf8", "name": "Paper" },
+        { "slug": "accent", "color": "#9b4d2d", "name": "Terracotta" },
+        { "slug": "muted", "color": "#6c6a65", "name": "Muted" }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "fontSizes": [
+        { "slug": "small", "size": "0.875rem", "name": "Small" },
+        { "slug": "medium", "size": "1.1rem", "name": "Medium" },
+        { "slug": "large", "size": "1.75rem", "name": "Large" },
+        { "slug": "x-large", "size": "3rem", "name": "Extra large" }
+      ]
+    },
+    "spacing": { "spacingSizes": [ { "slug": "30", "size": "1rem", "name": "Small" }, { "slug": "50", "size": "2rem", "name": "Medium" }, { "slug": "70", "size": "4rem", "name": "Large" } ] }
+  },
+  "styles": {
+    "color": { "background": "#fbfaf8", "text": "#20201e" },
+    "elements": { "link": { "color": { "text": "#9b4d2d" } } }
+  }
+}

@@ -1,0 +1,1 @@
+<?php if ( ! defined( 'ABSPATH' ) ) { exit; } if ( ! storypress_get_option( 'archive_sidebar' ) || ! is_active_sidebar( 'sidebar-1' ) ) { return; } ?><aside class="sidebar" aria-label="<?php esc_attr_e( 'Sidebar', 'storypress' ); ?>"><?php dynamic_sidebar( 'sidebar-1' ); ?></aside>
